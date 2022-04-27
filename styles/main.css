@@ -4,6 +4,7 @@
 3. typography
 4. visuals
 5. others
+https://www.figma.com/proto/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=44%3A594&scaling=scale-down
 */
 
 /* Variable control */
@@ -18,11 +19,11 @@
     --grey:#BABABA;
     --off-white:#FAF8F7;
     --just-white:#FFFFFF;
-
 }
 /* Control html */
 html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
 }
+
 
