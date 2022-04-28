@@ -97,7 +97,7 @@ header img{
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url('../assets/icons/down-arrow.svg');
+    background-image: url(../assets/icons/down-arrow.svg);
 }
 /* Control main */
 main{
@@ -129,7 +129,7 @@ main{
     height:200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url('../assets/img/Bitcoin.svg');
+    background-image: url(../assets/img/Bitcoin.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -223,7 +223,7 @@ main{
     width: 15px;
     height: 10px;
     margin-left: 10px;
-    background-image: url('../assets/icons/trending-down.svg');
+    background-image: url(../assets/icons/trending-down.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -233,7 +233,7 @@ main{
     width: 15px;
     height: 10px;
     margin-left: 10px;
-    background-image: url('../assets/icons/trending-up.svg');
+    background-image: url(../assets/icons/trending-up.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
