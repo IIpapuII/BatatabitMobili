@@ -149,19 +149,18 @@ main{
     color: #757575;
 }
 
-/* styles section one of tables */
+/* styles section of tables */
 
-.main-currency-table{
+.main-currency-table , .main-secondary-table{
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    height: 360px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
 
 }
 
-.main-currency-table .currency-table--title{
+.main-currency-table .currency-table--title,.secondary-table--title {
 
     margin-bottom: 15px;
     font-size: 1.8rem;
@@ -173,7 +172,7 @@ main{
     margin-left: 20px;
 
 }
-.currrency-table--container{
+.currrency-table--container ,.secondary-table-container{
     width: 90%;
     min-width: 230px;
     max-width: 300px;
@@ -181,14 +180,14 @@ main{
     margin: 0 auto;
 
 }
-.currency-table--container table{
+.currency-table--container table, .secondary-table-container table{
     width: 100%;
     height: 100%;
 }
 
-.currency-table--container td{
+.currency-table--container td, .secondary-table-container td{
     width:50%;
-    height: 40px;
+    height: 39px;
     font-size: 1.6rem;
     font-weight: 500px;
     line-height:1.9rem ;
@@ -196,23 +195,23 @@ main{
     background-color: var(--off-white);
 }
 
-.currency-table--container .table__top-left{
+.currency-table--container .table__top-left ,.secondary-table-container .table__top-left{
     border-radius:10px 0 0 0 ;
 
 }
 
-.currency-table--container .table__top-right{
+.currency-table--container .table__top-right, .secondary-table-container .table__top-right{
     border-radius: 0 10px 0 0;
 }
 
-.currency-table--container .table__bottom-left{
+.currency-table--container .table__bottom-left, .secondary-table-container .table__bottom-left{
     border-radius: 0 0 0 10px;
 }
-.currency-table--container .table__bottom-right{
+.currency-table--container .table__bottom-right, .secondary-table-container .table__bottom-right{
     border-radius: 0 0 10px 0;
 }
 
-.currency-table--container .table__right{
+.currency-table--container .table__right, .secondary-table-container .table__right{
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 1.7rem;
@@ -246,6 +245,7 @@ main{
     margin-top: 16px;
     padding: 8px;  
     border-radius: 8px; 
+    margin-bottom: 20px;
 }
 
 .currency-table--date p{
@@ -253,4 +253,12 @@ main{
     font-weight: 300;
     line-height: 1.5rem ;
     color: var(--warm-black-one);
+}
+/* own styles of the second table */
+.secondary-table__color{
+    color: var(--secondary-blue);
+    margin-left: 70px;
+}
+.currency-table__color{
+    background-color: var(--soft-blue);
 }
