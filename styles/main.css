@@ -311,13 +311,13 @@ main{
     min-width: 288px;
     max-width: 400px;
     height: 150px;
-    margin: 15px auto;
+    margin: 16px auto;
     padding: 15px;
     background-color: var(--warm-black-one);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0, 0.16);
 }
-.producto-detail--card .clock{
+.producto-detail--imagen .clock{
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -327,6 +327,9 @@ main{
     background-position: center;
     background-repeat: no-repeat;
 
+}
+.producto-detail--card .eye{
+    background-image: url(../assets/icons/eye.svg);
 }
 .producto--card-title{
     margin-bottom: 15px;
