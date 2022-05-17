@@ -317,19 +317,27 @@ main{
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0, 0.16);
 }
-.producto-detail--imagen .clock{
+.producto-detail__imagen {
     display: inline-block;
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(../assets/icons/clock.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
-.producto-detail--card .eye{
+/* Embed image in span */
+.producto-detail__clock{
+    background-image: url(../assets/icons/clock.svg);
+}
+.producto-detail__eye{
     background-image: url(../assets/icons/eye.svg);
+}
+.producto-detail__diner{
+    background-image: url(../assets/icons/dollar-sign.svg);
+}
+.producto-detail__check{
+    background-image: url(../assets/icons/check-circle.svg);
 }
 .producto--card-title{
     margin-bottom: 15px;
